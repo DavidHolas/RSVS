@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Booking from './components/Booking';
-import BookingList from './containers/BookingList';
 
 export const Home = () => (
     <div>

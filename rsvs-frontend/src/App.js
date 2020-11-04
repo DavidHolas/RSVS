@@ -3,14 +3,13 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {Home}  from './Home';
-import {Login} from './components/Login';
+import {Login} from './Login';
 import {About} from './About';
 import {Contact} from './Contact';
 import {NoMatch} from './NoMatch';
 import {Layout} from './containers/Layout';
 
 import {NavigationBar} from './NavigationBar';
-import {Jumbotron} from './containers/Jumbotron';
 
 class App extends Component {
   render() {
